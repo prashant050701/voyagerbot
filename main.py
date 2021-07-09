@@ -28,7 +28,7 @@ def god() :
   with open('temp.txt', 'r') as f:
     #print(f.read())
     api.update_status(f.read())
-
+ 
 flask_app.keep_alive()
 
 if __name__ == "__main__":
